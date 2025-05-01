@@ -5,7 +5,7 @@
     "npm" : ">=9.7.2",
     "node" : ">=20.0.0"
     },
-    "scripts": {npm install -g expo-cli
+    "scripts": {
     "start": "node itxxwasi.js"
   },
   "author": "WasiTech",
