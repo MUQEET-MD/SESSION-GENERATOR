@@ -57,24 +57,24 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_MD_TEXT = `
-*_Pair Code Connected by WASI TECH*
+*_Session Connected By MUQEET Tech_*
 *_Made With 🤍_*
 ______________________________________
 ╔════◇
-║ *『 WOW YOU'VE CHOSEN WASI MD 』*
+║ *『AMAZING YOU'VE CHOSEN MUQEET MD』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚════════════════════════╝
 ╔═════◇
-║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _youtube.com/@wasitech1_
-║❒ *Owner:* _https://wa.me/923192173398_
-║❒ *Repo:* _https://github.com/wasixd/WASI-MD
-║❒ *WaGroup:* _https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j
-║❒ *Plugins:* _https://github.com/wasixd/WASI-MD-PLUGINS_
+║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
+║❒ *Ytube:* COMMING SOON 🔜
+║❒ *Owner:* _https://wa.me/923163954173_
+║❒ *Repo:* _https://github.com/muqeet908/MUQEET-MD_
+║❒ *WaGroup:* _https://chat.whatsapp.com/CVQHESIID3wLeUW7GZWrBs_
+║❒ *WaGroup2:* _https://chat.whatsapp.com/LhppWVOndv9BpkwgixJbr3_
+║❒ *ADMIN:*  _https://wa.me/923116609742_
 ╚════════════════════════╝
 _____________________________________
-
+	
 _Don't Forget To Give Star To My Repo_`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
  
